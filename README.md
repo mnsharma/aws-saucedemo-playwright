@@ -1,3 +1,11 @@
+![Playwright CI](https://github.com/mnsharma/aws-saucedemo-playwright/actions/workflows/playwright-ci.yml/badge.svg)
+
+## 📊 Test Report
+
+Live Allure Report:  
+🔗 https://mnsharma.github.io/aws-saucedemo-playwright/
+
+
 aws-saucedemo-playwright/
 │
 ├─ .github/
@@ -13,11 +21,11 @@ aws-saucedemo-playwright/
 └─ .gitignore
 
 
+## 🛠 Tech Stack
 
-## Playwright Automation Framework
-
-- Python + Playwright
+- Python 3
+- Playwright
 - Pytest
-- Parallel execution
-- Allure reporting
-- CI with GitHub Actions
+- Allure Reporting
+- GitHub Actions CI
+- Parallel execution (pytest-xdist)
